@@ -1,7 +1,3 @@
-import javax.xml.namespace.QName;
-import java.math.BigDecimal;
-import java.text.DecimalFormat;
-
 public class Person {
   //  * Создать класс "Сотрудник" с полями: ФИО, должность, email, телефон, зарплата, возраст;
    private String fullName;
