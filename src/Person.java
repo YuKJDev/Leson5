@@ -1,12 +1,12 @@
 public class Person {
     //  * Создать класс "Сотрудник" с полями: ФИО, должность, email, телефон, зарплата, возраст;
-    private String fullName;
-    private String position;
-    private String email;
-    private String tel;
-    private double salary;
-    private int age;
-    private String pattern;
+    private final String fullName;
+    private final String position;
+    private final String email;
+    private final String tel;
+    private final double salary;
+    private final int age;
+
 
     // * Конструктор класса должен заполнять эти поля при создании объекта;
     Person(String fullName, String position, String email, String tel, double salary, int age) {
