@@ -1,12 +1,12 @@
 public class Person {
-  //  * Создать класс "Сотрудник" с полями: ФИО, должность, email, телефон, зарплата, возраст;
-   private String fullName;
-   private String position;
-   private String email;
-   private String tel;
-   private double salary;
-   private int age;
-   private String pattern;
+    //  * Создать класс "Сотрудник" с полями: ФИО, должность, email, телефон, зарплата, возраст;
+    private String fullName;
+    private String position;
+    private String email;
+    private String tel;
+    private double salary;
+    private int age;
+    private String pattern;
 
     // * Конструктор класса должен заполнять эти поля при создании объекта;
     Person(String fullName, String position, String email, String tel, double salary, int age) {
@@ -16,7 +16,7 @@ public class Person {
         this.tel = tel;
         this.salary = salary;
         this.age = age;
-   }
+    }
 
     //* Внутри класса «Сотрудник» написать метод, который выводит информацию об объекте в консоль;
     public void person() {
@@ -25,8 +25,6 @@ public class Person {
     }
 
     public static void main(String[] args) {
-
-
         Person[] persArray = new Person[5];
         Person person1;
         persArray[0] = new Person("Ivanov Ivan", "Engineer", "ivivan@mailbox.com", "892312312",
